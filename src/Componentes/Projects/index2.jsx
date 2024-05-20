@@ -66,7 +66,7 @@ const Projects2 = () => {
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3 my-16'>
                 <img src={Search} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
-                    <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Search Engine</h2>
+                    <h2 className='lg:m-2 sm:py-2 lg:text-3xl sm:text-xl font-bold'>Search Engine</h2>
                     <p className='lg:m-2 lg:text-xl sm:text-sm sm:mb-2'>Mais um projeto usando JS e buscando imagens através de uma API através do campo de texto e então serão mostradas diversas imagens de acordo com a palavra.</p>
                     <img src={js} alt="icone de react0" className='h-7 w-7  rounded-full m-2 lg:block md:block sm:hidden' />
                     <button className='mt-2 animate-pulse mx-4 border-gray-300 bg-gray-700 px-3 rounded-full text-white sm:mx-1 sm:mt-2 sm:text-sm sm:mr-8'><a href="https://image-generate-jade.vercel.app/" target='blank'>Ver Site</a></button>
