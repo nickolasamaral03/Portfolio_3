@@ -12,9 +12,7 @@ export default {
         md: '768px',
         lg: '1024px',
       },
-      animation: {
-        'pulse-slow': 'pulse 10s linear infinite',
-      },
+     
       colors:{
         headers:{
           100: '#D1C6C6'

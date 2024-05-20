@@ -24,7 +24,7 @@ const Contato = () => {
             </div></a>
         </div>
         <footer className='bg-slate-600 p-3'>
-            <h2 className='text-xl text-white font-medium text-center animate-pulse sm:text-xl'>Criado 2024 by Nickolas Amaral</h2>
+            <h2 className='text-xl text-white font-medium text-center animate-pulse sm:text-sm'>Criado 2024 by Nickolas Amaral</h2>
         </footer>
         </>
     )
