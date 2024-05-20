@@ -8,8 +8,8 @@ const Home = () => {
     return(
     <div className=' lg:mt-14 lg:ml-24 sm:grid-cols-1 sm:w-100 sm:mt-14'>
         <div className='grid'>
-            <h3 className='dark:text-zinc-500 text-black text-2xl ml-28 font-thin animate-pulse sm:mr-5'> I am Nickolas Amaral</h3>
-            <h1 className='text-4xl dark:text-zinc-100 font-extrabold italic my-4 animate-pulse sm:text-3xl sm:ml-8'>Desenvolvedor Front-End</h1>
+            <h3 className='dark:text-zinc-500 text-black text-2xl ml-28 font-thin animate-pulse sm:mr-7'> I am Nickolas Amaral</h3>
+            <h1 className='text-4xl dark:text-zinc-100 font-extrabold italic my-4 animate-pulse sm:text-3xl sm:ml-10'>Desenvolvedor Front-End</h1>
             <div className='flex'>
             <img src={Foto} alt="Minha Foto" className='lg:h-36 lg:w-36 ml-10 mt-5 rounded border-gray-600 border-2 sm:h-32 sm:w-32'/>
             <div className=' flex mt-16 pl-7'>

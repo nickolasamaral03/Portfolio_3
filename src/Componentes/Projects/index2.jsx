@@ -13,7 +13,7 @@ const Projects2 = () => {
         <div className='bg-gray-200 dark:bg-transparent mt-10 lg:pb-6'>
             <h1 className='text-center lg:text-4xl sm:text-3xl md:text-4xl animate-pulse font-serif dark:text-white pt-16 pb-8'>PROJETOS</h1>
         <div>
-            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-5'>
+            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
                 <img src={Netflix} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md'/>
                 <div className='w-96'>
                     <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Netflix Clone</h2>
@@ -23,7 +23,7 @@ const Projects2 = () => {
                 </div>
             </div>
 
-            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-5 my-16'>
+            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3 my-16'>
                 <img src={Mario} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md'/>
                 <div className='w-96'>
                     <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Super Mario</h2>
@@ -33,7 +33,7 @@ const Projects2 = () => {
                 </div>
             </div>
 
-            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-5'>
+            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
                 <img src={Gallery} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
                     <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>I.A Gallery</h2>
@@ -43,7 +43,7 @@ const Projects2 = () => {
                 </div>
             </div>
 
-            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-5 my-16'>
+            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3 my-16'>
                 <img src={Weather} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
                     <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Weather</h2>
@@ -53,7 +53,7 @@ const Projects2 = () => {
                 </div>
             </div>
 
-            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-5'>
+            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
                 <img src={Watch} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
                     <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Watch</h2>
@@ -63,7 +63,7 @@ const Projects2 = () => {
                 </div>
             </div>
 
-            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-5 my-16'>
+            <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3 my-16'>
                 <img src={Search} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
                     <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Search Engine</h2>

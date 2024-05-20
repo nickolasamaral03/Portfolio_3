@@ -10,7 +10,7 @@ const Skills = () => {
         <>
        <div className='lg:mt-24 pb-8 dark:bg-gray-800 bg-blue-100 m-20 rounded-lg sm:w-full sm:m-auto sm:my-10 '>
             <h1 className='lg:text-4xl dark:text-zinc-100 font-extrabold italic my-4 text-center pt-8 mb-10 animate-pulse sm:text-3xl'>My Skills</h1>
-            <div className='items-center justify-between flex lg:px-20 sm:px-0 sm:ml-2 lg:mr-10 sm:w-full '>
+            <div className='items-center justify-between flex lg:px-20 sm:px-0 sm:ml-4 lg:mr-10'>
             <div className='sm:hidden md:block lg:block'>
                 <img src={html} alt="imagem do icone" className='lg:h-16 lg:w-14 lg:ml-9 cursor-pointer sm:h-8 sm:w-6 sm:ml-5 md:ml-6'/>
                 <p className='dark:text-white font-mono mt-5 lg:ml-12 sm:text-xs lg:text-base sm:ml-6'>HTML</p>
@@ -32,8 +32,8 @@ const Skills = () => {
                 <p className='dark:text-white font-mono mt-5 lg:ml-2 lg:text-base sm:text-xs sm:-ml-1'>UX/UI</p>
             </div>
             <div>
-                <img src={english} alt="imagem do icone" className='lg:h-16 lg:w-14 lg:mr-10 cursor-pointer sm:mr-5 sm:h-8 sm:w-6 sm:ml-3' />
-                <p className='dark:text-white font-mono mt-5 lg:ml-2 lg:text-base sm:text-xs sm:mr-8'>ENGLISH</p>
+                <img src={english} alt="imagem do icone" className='lg:h-16 lg:w-14 lg:mr-10 cursor-pointer sm:mr-5 sm:h-8 sm:w-6 sm:ml-4' />
+                <p className='dark:text-white font-mono mt-5 lg:ml-1 lg:text-base sm:text-xs sm:mr-8'>ENGLISH</p>
             </div>
             </div>
        </div> 
