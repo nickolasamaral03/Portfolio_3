@@ -8,6 +8,7 @@ import react from '../../assets/biblioteca.png'
 const Skills = () => {
     return(
         <>
+
        <div className='lg:mt-24 pb-8 dark:bg-gray-800 bg-blue-100 m-20 rounded-lg sm:w-full sm:m-auto sm:my-10 '>
             <h1 className='lg:text-4xl dark:text-zinc-100 font-extrabold italic my-4 text-center pt-8 mb-10 animate-pulse sm:text-3xl'>My Skills</h1>
             <div className='items-center justify-between flex lg:px-20 sm:px-0 sm:ml-4 lg:mr-10'>
@@ -38,6 +39,7 @@ const Skills = () => {
             </div>
        </div> 
        <div>
+
         <div className=' px-7 border-solid border-2 dark:border-green-700 border-gray-200 bg-green-600 dark:bg-green-950 mx-8 my-2 rounded-md'>
             <h2 className='text-center text-xl text-green-400 font-bold my-3 animate-pulse'>Evolução do meu estudo:</h2>
             <div className='lg:flex dark:text-gray-300 text-gray-200 sm:grid'>
@@ -72,6 +74,7 @@ const Skills = () => {
             </div>
         </div>
     </div>
+    
        </>
     )
 }
