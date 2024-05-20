@@ -16,7 +16,7 @@ const Projects2 = () => {
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
                 <img src={Netflix} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md'/>
                 <div className='w-96'>
-                    <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Netflix Clone</h2>
+                    <h2 className='lg:m-2 sm:py-2 lg:text-3xl sm:text-xl font-bold'>Netflix Clone</h2>
                     <p className='lg:m-2 lg:text-xl sm:text-sm sm:mb-2'>Nesse projeto busquei testar meus conhecimentos em React e no consumo de API externa de filmes, então busquei o streaming mais famoso do mundo para tentar replicar, não ficou idêntico, mas deu pra aprende muita coisa</p>
                     <img src={react} alt="icone de react0" className='h-7 w-7 bg-blue-400 pr-1 rounded-full m-2 lg:block md:block sm:hidden' />
                     <button className='mt-2 animate-pulse mx-4 border-gray-300 bg-gray-700 px-3 rounded-full text-white sm:mx-1 sm:mt-2 sm:text-sm sm:mr-8'><a href="https://netflix-xi-nine.vercel.app/" target='blank'>Ver Site</a></button>
@@ -26,7 +26,7 @@ const Projects2 = () => {
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3 my-16'>
                 <img src={Mario} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md'/>
                 <div className='w-96'>
-                    <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Super Mario</h2>
+                    <h2 className='lg:m-2 sm:py-2 lg:text-3xl sm:text-xl font-bold'>Super Mario</h2>
                     <p className='lg:m-2 lg:text-xl sm:text-sm sm:mb-2'>Um dos meus projetos mais divertidos, fiz através de um vídeo no Youtube usando JS, mas depois de finalizado busquei colocar algumas funcionalidades, como som e um botão de reiniciar.</p>
                     <img src={js} alt="icone de react0" className='h-7 w-7 rounded-full m-2 lg:block md:block sm:hidden' />
                     <button className='mt-2 animate-pulse mx-4 border-gray-300 bg-gray-700 px-3 rounded-full text-white sm:mx-1 sm:mt-2 sm:text-sm sm:mr-8'><a href="https://mario-jump-blue.vercel.app/" target='blank'>Ver Site</a></button>
@@ -36,7 +36,7 @@ const Projects2 = () => {
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
                 <img src={Gallery} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
-                    <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>I.A Gallery</h2>
+                    <h2 className='lg:m-2 sm:py-2 lg:text-3xl sm:text-xl font-bold'>I.A Gallery</h2>
                     <p className='lg:m-2 lg:text-xl sm:text-sm sm:mb-2'>Projeto feito em JS, tive como objetivo fazer estilo e-commerce como, por exemplo, colocar o item no carrinho, fiz inspirado em um vídeo no Youtube e os produtos disponibilzados na Gallery são imagens geradas por inteligência artificial.</p>
                     <img src={js} alt="icone de react0" className='h-7 w-7  rounded-full m-2 lg:block md:block sm:hidden' />
                     <button className='mt-2 animate-pulse mx-4 border-gray-300 bg-gray-700 px-3 rounded-full text-white sm:mx-1 sm:mt-2 sm:text-sm sm:mr-8'><a href="https://i-a-gallery.vercel.app/" target='blank'>Ver Site</a></button>
@@ -46,7 +46,7 @@ const Projects2 = () => {
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3 my-16'>
                 <img src={Weather} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
-                    <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Weather</h2>
+                    <h2 className='lg:m-2 sm:py-2 lg:text-3xl sm:text-xl font-bold'>Weather</h2>
                     <p className='lg:m-2 lg:text-xl sm:text-sm sm:mb-2'>Feito com JavaScript e com bastante animação para o movimento dos itens, como por exemplo o planeta e usei uma API externa de tempo que é atualizada em tempo real.</p>
                     <img src={js} alt="icone de react0" className='h-7 w-7 rounded-full m-2 lg:block md:block sm:hidden' />
                     <button className='mt-2 animate-pulse mx-4 border-gray-300 bg-gray-700 px-3 rounded-full text-white sm:mx-1 sm:mt-2 sm:text-sm sm:mr-8'><a href="https://weather-site-rouge.vercel.app/" target='blank'>Ver Site</a></button>
@@ -56,7 +56,7 @@ const Projects2 = () => {
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
                 <img src={Watch} alt="imagem da tela representando" className='lg:h-72 sm:h-44 mr-10 rounded-md cursor-pointer'/>
                 <div className='w-96'>
-                    <h2 className='lg:m-2 sm:mb- lg:text-3xl sm:text-xl font-bold'>Watch</h2>
+                    <h2 className='lg:m-2 sm:py-2 lg:text-3xl sm:text-xl font-bold'>Watch</h2>
                     <p className='lg:m-2 lg:text-xl sm:text-sm sm:mb-2'>Projeto feito em React, com componentes dinâmicos busquei fazer estilo um app de treino no qual coloca o treino e aciona o cronometro depois.</p>
                     <img src={react} alt="icone de react0" className='h-7 w-7 bg-blue-400 pr-1 rounded-full m-2 lg:block md:block sm:hidden' />
                     <button className='mt-2 animate-pulse mx-4 border-gray-300 bg-gray-700 px-3 rounded-full text-white sm:mx-1 sm:mt-2 sm:text-sm sm:mr-8'><a href="https://watch-training-nick.vercel.app/" target='blank'>Ver Site</a></button>
