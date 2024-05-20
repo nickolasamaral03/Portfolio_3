@@ -8,7 +8,7 @@ const Home = () => {
     return(
     <div className=' lg:mt-14 lg:ml-24 sm:grid-cols-1 sm:w-100 sm:mt-14'>
         <div className='grid'>
-            <h3 className='dark:text-zinc-500 text-black text-2xl ml-28 font-thin animate-pulse sm:mr-9'> I am Nickolas Amaral</h3>
+            <h3 className='dark:text-zinc-500 text-black text-2xl ml-28 font-thin animate-pulse sm:mr-11'> I am Nickolas Amaral</h3>
             <h1 className='text-4xl dark:text-zinc-100 font-extrabold italic my-4 animate-pulse sm:text-3xl sm:ml-10'>Desenvolvedor Front-End</h1>
             <div className='flex'>
             <img src={Foto} alt="Minha Foto" className='lg:h-36 lg:w-36 ml-10 mt-5 rounded border-gray-600 border-2 sm:h-32 sm:w-32'/>
@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
                 <div className='lg:ml-36 lg:-mt-20 border-solid border-gray-200 dark:border-gray-500 border-2 p-5 bg-gray-200 dark:bg-gray-950 rounded-lg drop-shadow-md sm:m-auto sm:m-12 sm:mt-10 '>
                     <h4>
-                    <p className='dark:text-yellow-400 text-yellow-700 font-mono mb-10 text-2xl animate-bounce'>“Olá, galera”</p>
+                    <p className='dark:text-yellow-400 text-yellow-700 font-mono mb-10 text-2xl'>“Olá, galera”</p>
 
                     <p className='dark:text-gray-300 text-gray-800 font-mono mb-10 text-xl'>“Me chamo Nickolas, tenho 21 anos e sou apaixonado por <span className=' dark:text-yellow-400 text-yellow-600'>Front-End</span>”</p>
 
