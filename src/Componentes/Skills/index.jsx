@@ -32,8 +32,8 @@ const Skills = () => {
                 <p className='dark:text-white font-mono mt-5 lg:ml-2 lg:text-base sm:text-xs sm:-ml-1'>UX/UI</p>
             </div>
             <div>
-                <img src={english} alt="imagem do icone" className='lg:h-16 lg:w-14 lg:mr-10 cursor-pointer sm:mr-5 sm:h-8 sm:w-6 sm:ml-4' />
-                <p className='dark:text-white font-mono mt-5 lg:ml-3 lg:text-base sm:text-xs sm:mr-8'>ENGLISH</p>
+                <img src={english} alt="imagem do icone" className='lg:h-16 lg:w-14 lg:mr-10 cursor-pointer sm:mr-5 sm:h-8 sm:w-6 sm:ml-3' />
+                <p className='dark:text-white font-mono mt-5 lg:ml-3 lg:text-base sm:text-xs sm:mr-6'>ENGLISH</p>
             </div>
             </div>
        </div> 
