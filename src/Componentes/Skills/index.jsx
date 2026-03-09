@@ -9,7 +9,7 @@ const Skills = () => {
     return(
         <>
 
-       <div className='lg:mt-24 pb-8 dark:bg-gray-800 bg-blue-100 m-20 rounded-lg sm:w-full sm:m-auto sm:my-10 '>
+       {/* <div className='lg:mt-24 pb-8 dark:bg-gray-800 bg-blue-100 m-20 rounded-lg sm:w-full sm:m-auto sm:my-10 '>
             <h1 className='lg:text-4xl dark:text-zinc-100 font-extrabold italic my-4 text-center pt-8 mb-10 animate-pulse sm:text-3xl'>My Skills</h1>
             <div className='items-center justify-between flex lg:px-20 sm:px-0 sm:ml-4 lg:mr-10'>
             <div className='sm:hidden md:block lg:block'>
@@ -37,7 +37,57 @@ const Skills = () => {
                 <p className='dark:text-white font-mono mt-5 lg:ml-3 lg:text-base sm:text-xs sm:mr-6'>ENGLISH</p>
             </div>
             </div>
-       </div> 
+       </div>  */}
+
+       <div className='lg:mt-24 pb-8 dark:bg-gray-800 bg-blue-100 rounded-lg mx-4 sm:mx-6 md:mx-10 lg:mx-20 my-20'>
+            <h1 className='lg:text-4xl dark:text-zinc-100 font-extrabold italic my-4 text-center pt-8 mb-10 animate-pulse sm:text-3xl'>
+                My Skills
+            </h1>
+            
+            <div className='flex items-center justify-between gap-2 px-4 sm:px-6 md:px-8 lg:px-16'>
+                {/* HTML */}
+                <div className='flex flex-col items-center'>
+                <img src={html} alt="HTML" 
+                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>HTML</p>
+                </div>
+
+                {/* CSS/TAILWIND */}
+                <div className='flex flex-col items-center'>
+                <img src={css} alt="Tailwind" 
+                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>TAILWIND</p>
+                </div>
+
+                {/* JavaScript */}
+                <div className='flex flex-col items-center'>
+                <img src={js} alt="JavaScript" 
+                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>JAVASCRIPT</p>
+                </div>
+
+                {/* React */}
+                <div className='flex flex-col items-center'>
+                <img src={react} alt="React" 
+                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>REACT</p>
+                </div>
+
+                {/* UX/UI */}
+                <div className='flex flex-col items-center'>
+                <img src={design} alt="UX/UI" 
+                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>UX/UI</p>
+                </div>
+
+                {/* English */}
+                <div className='flex flex-col items-center'>
+                <img src={english} alt="English" 
+                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>ENGLISH</p>
+                </div>
+            </div>
+            </div>
        <div>
 
         <div className=' px-7 border-solid border-2 dark:border-green-700 border-gray-200 bg-green-600 dark:bg-green-950 mx-8 my-2 rounded-md'>
