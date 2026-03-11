@@ -40,7 +40,7 @@ const Skills = () => {
        </div>  */}
 
        <div className='lg:mt-24 pb-8 dark:bg-gray-800 bg-blue-100 rounded-lg mx-4 sm:mx-6 md:mx-10 lg:mx-20 my-20'>
-            <h1 className='lg:text-4xl dark:text-zinc-100 font-extrabold italic my-4 text-center pt-8 mb-10 animate-pulse sm:text-3xl'>
+            <h1 className='lg:text-4xl dark:text-zinc-100 font-extrabold italic my-4 text-center pt-8 mb-10 animate-pulse sm:text-2xl'>
                 My Skills
             </h1>
             
@@ -48,43 +48,43 @@ const Skills = () => {
                 {/* HTML */}
                 <div className='flex flex-col items-center'>
                 <img src={html} alt="HTML" 
-                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>HTML</p>
+                    className='h-12 w-12 sm:h-10 sm:w-8 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>HTML</p>
                 </div>
 
                 {/* CSS/TAILWIND */}
                 <div className='flex flex-col items-center'>
                 <img src={css} alt="Tailwind" 
-                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>TAILWIND</p>
+                    className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>TAILWIND</p>
                 </div>
 
                 {/* JavaScript */}
                 <div className='flex flex-col items-center'>
                 <img src={js} alt="JavaScript" 
-                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>JAVASCRIPT</p>
+                    className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>JS</p>
                 </div>
 
                 {/* React */}
                 <div className='flex flex-col items-center'>
                 <img src={react} alt="React" 
-                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>REACT</p>
+                    className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>REACT</p>
                 </div>
 
                 {/* UX/UI */}
                 <div className='flex flex-col items-center'>
                 <img src={design} alt="UX/UI" 
-                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>UX/UI</p>
+                    className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>UX/UI</p>
                 </div>
 
                 {/* English */}
                 <div className='flex flex-col items-center'>
                 <img src={english} alt="English" 
-                    className='h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 text-sm sm:text-base'>ENGLISH</p>
+                    className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>ENGLISH</p>
                 </div>
             </div>
             </div>

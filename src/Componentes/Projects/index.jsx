@@ -10,7 +10,7 @@ import js from '../../assets/js.png'
 const Projects = () => {
     return(
         <>
-        <div className='bg-gray-200 dark:bg-transparent mt-10 lg:pb-6'>
+        <div className='bg-gray-200 dark:bg-transparent mt-10 lg:pb-6 sm:mx-auto'>
             <h1 className='text-center lg:text-4xl sm:text-3xl md:text-4xl animate-pulse font-serif dark:text-white pt-16 pb-8'>PROJETOS</h1>
         <div>
             <div className='lg:flex lg:mx-10 m-auto justify-center dark:text-white sm:grid sm:ml-3'>
