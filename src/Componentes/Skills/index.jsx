@@ -49,42 +49,42 @@ const Skills = () => {
                 <div className='flex flex-col items-center'>
                 <img src={html} alt="HTML" 
                     className='h-12 w-12 sm:h-10 sm:w-8 md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>HTML</p>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs hidden lg:block'>HTML</p>
                 </div>
 
                 {/* CSS/TAILWIND */}
                 <div className='flex flex-col items-center'>
                 <img src={css} alt="Tailwind" 
                     className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>TAILWIND</p>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs hidden lg:block'>TAILWIND</p>
                 </div>
 
                 {/* JavaScript */}
                 <div className='flex flex-col items-center'>
                 <img src={js} alt="JavaScript" 
                     className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>JS</p>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs hidden lg:block'>JS</p>
                 </div>
 
                 {/* React */}
                 <div className='flex flex-col items-center'>
                 <img src={react} alt="React" 
                     className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>REACT</p>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs hidden lg:block'>REACT</p>
                 </div>
 
                 {/* UX/UI */}
                 <div className='flex flex-col items-center'>
                 <img src={design} alt="UX/UI" 
                     className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>UX/UI</p>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs hidden lg:block'>UX/UI</p>
                 </div>
 
                 {/* English */}
                 <div className='flex flex-col items-center'>
                 <img src={english} alt="English" 
                     className='h-12 w-12 sm:h-10 sm:w-8  md:h-16 md:w-16 cursor-pointer hover:scale-110 transition-transform'/>
-                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs'>ENGLISH</p>
+                <p className='dark:text-white font-mono mt-2 lg:text-xl sm:text-xs hidden lg:block'>ENGLISH</p>
                 </div>
             </div>
             </div>
